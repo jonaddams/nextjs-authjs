@@ -1,0 +1,47 @@
+{
+  "name": "auth-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@auth/drizzle-adapter": "^1.8.0",
+    "@aws-sdk/client-rds-data": "^3.758.0",
+    "@neondatabase/serverless": "^0.10.4",
+    "@tailwindcss/postcss": "^4.0.9",
+    "@vercel/postgres": "^0.10.0",
+    "babel-plugin-react-compiler": "19.0.0-beta-e1e972c-20250221",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.40.0",
+    "install": "^0.13.0",
+    "next": "15.2.0",
+    "next-auth": "5.0.0-beta.25",
+    "npm": "^11.1.0",
+    "pg": "^8.13.3",
+    "postgres": "^3.4.5",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/pg": "^8.11.11",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "drizzle-kit": "^0.30.5",
+    "eslint": "^9.21.0",
+    "eslint-config-next": "15.2.0",
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5.8.2"
+  },
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+}
