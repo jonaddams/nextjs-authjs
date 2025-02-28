@@ -4,7 +4,6 @@ import { auth } from "@/src/app/auth/auth-js";
 // https://nextjs.org/docs/pages/building-your-application/routing/middleware
 export const config = {
   matcher: ["/dashboard"],
-  runtime: "nodejs", // Ensure the middleware runs in Node.js environment
 };
 
 export default auth((req) => {
