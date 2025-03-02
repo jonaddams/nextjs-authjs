@@ -1,4 +1,4 @@
-import { signIn } from "@/src/app/auth/auth-js";
+import { signIn } from "@/src/lib/auth/auth-js";
 import { FaEnvelope } from "react-icons/fa";
 
 interface EmailSignInProps {

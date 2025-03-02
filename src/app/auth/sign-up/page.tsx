@@ -1,5 +1,5 @@
-import { isAuthenticated } from "@/src/app/auth/is-authenticated-server-action";
-import SignIn from "@/src/app/components/sign-in";
+import SignIn from "@/src/components/auth/sign-in";
+import { isAuthenticated } from "@/src/lib/auth/is-authenticated-server-action";
 import { redirect } from "next/navigation";
 
 const Page: React.FC = async () => {

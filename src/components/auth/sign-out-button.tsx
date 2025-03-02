@@ -1,6 +1,6 @@
 "use client";
-import { handleSignOut } from "@/src/app/auth/sign-out-server-actions";
-import { useSession } from "@/src/app/components/session-context";
+import { useSession } from "@/src/components/auth/session-context";
+import { handleSignOut } from "@/src/lib/auth/sign-out-server-action";
 
 const SignOutButton: React.FC = () => {
   const { setSession } = useSession();

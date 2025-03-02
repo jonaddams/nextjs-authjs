@@ -1,6 +1,6 @@
 "use client";
 
-import type { Session } from "@/src/app/auth/get-session";
+import type { Session } from "@/src/lib/auth/get-session";
 import { createContext, ReactNode, useContext, useState } from "react";
 
 const SessionContext = createContext<{

@@ -1,6 +1,6 @@
 "use client";
 import githubIcon from "@/public/github.svg";
-import { handleSignin } from "@/src/app/auth/signin-server-action";
+import { handleSignin } from "@/src/lib/auth/signin-server-action";
 import Image from "next/image";
 
 const GitHubSignInButton: React.FC = () => {

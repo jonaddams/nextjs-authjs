@@ -1,6 +1,6 @@
 "use client";
 import googleIcon from "@/public/google.svg";
-import { handleSignin } from "@/src/app/auth/signin-server-action";
+import { handleSignin } from "@/src/lib/auth/signin-server-action";
 import Image from "next/image";
 
 const GoogleSignInButton: React.FC = () => {

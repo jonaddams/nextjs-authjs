@@ -1,7 +1,7 @@
-import EmailSignIn from "@/src/app/components/email-sign-in-form";
-import GitHubSignInButton from "@/src/app/components/github-sign-in-button";
-import GoogleSignInButton from "@/src/app/components/google-sign-in-button";
-import MicrosoftSignInButton from "@/src/app/components/microsoft-sign-in-button";
+import EmailSignIn from "@/src/components/auth/email-sign-in-form";
+import GitHubSignInButton from "@/src/components/auth/github-sign-in-button";
+import GoogleSignInButton from "@/src/components/auth/google-sign-in-button";
+import MicrosoftSignInButton from "@/src/components/auth/microsoft-sign-in-button";
 import Link from "next/link";
 
 interface SignInProps {

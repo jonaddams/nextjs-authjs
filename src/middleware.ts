@@ -1,4 +1,4 @@
-import { auth } from "@/src/app/auth/auth-js";
+import { auth } from "@/src/lib/auth/auth-js";
 
 // protected routes
 // https://nextjs.org/docs/pages/building-your-application/routing/middleware

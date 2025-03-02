@@ -1,5 +1,5 @@
 import octanImage from "@/public/octan.jpg";
-import { getSession } from "@/src/app/auth/get-session";
+import { getSession } from "@/src/lib/auth/get-session";
 import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
